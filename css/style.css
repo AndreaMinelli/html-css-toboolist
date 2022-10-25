@@ -45,6 +45,15 @@ button:hover{
     background-color: rgb(242,158,51);
 }
 
+.pink{
+    background-color: rgb(216,99,161);
+}
+
+.lime{
+    background-color: rgb(176,201,38) ;
+}
+
+
 /* Header */
 
 #intestazione-sito{
@@ -82,13 +91,12 @@ button:hover{
 /* Sezione To-Do-List */
 .main-section{
     background-color: white;
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 .to-do-type{
     font-weight: bolder;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin: 15px 25px;
 }
 
 .show-list{
@@ -97,9 +105,8 @@ button:hover{
 }
 
 .to-do-things{
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 10px 0;
     line-height: 20px;
     vertical-align: middle;
     font-size: 15px;
