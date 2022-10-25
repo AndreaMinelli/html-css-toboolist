@@ -29,6 +29,10 @@ button:hover{
     cursor: pointer;
 }
 
+.light-blue{
+    background-color: rgb(69,171,234);
+}
+
 /* Header */
 
 #intestazione-sito{
@@ -60,5 +64,53 @@ button:hover{
     line-height: 45px;
     padding-left: 20px;
     border-radius: 5px 5px 0 0;
+    margin-bottom: 2px;
+}
+
+/* Sezione To-Do-List */
+.main-section{
+    background-color: white;
+    padding: 40px 0 0 0;
+}
+
+.to-do-type{
+    font-weight: bolder;
     margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.show-list{
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.to-do-things{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.check{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    line-height: 13px;
+    color: green;
+    font-size: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.things-type{
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 5px;
 }
