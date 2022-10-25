@@ -1,0 +1,28 @@
+/* CCS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body{
+    background-color: lightgrey;
+}
+
+img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+h1{
+    display: inline;
+}
+
+/* Header */
+
+#intestazione-sito{
+    background-color: white;
+    line-height: 70px;
+
+}
