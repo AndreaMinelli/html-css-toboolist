@@ -33,6 +33,18 @@ button:hover{
     background-color: rgb(69,171,234);
 }
 
+.purple{
+    background-color: rgb(156,114,228);
+}
+
+.watergreen{
+    background-color:rgb(100,192,169);
+}
+
+.orange{
+    background-color: rgb(242,158,51);
+}
+
 /* Header */
 
 #intestazione-sito{
@@ -93,12 +105,11 @@ button:hover{
     font-size: 15px;
 }
 
-.check{
+.sign{
     display: inline-block;
     height: 13px;
     width: 13px;
     line-height: 13px;
-    color: green;
     font-size: 10px;
     border-width: 1px;
     border-style: solid;
@@ -107,7 +118,13 @@ button:hover{
     vertical-align: middle;
     margin-right: 5px;
 }
+.check{
+    color: green;
+}
 
+.cross{
+    color:red
+}
 .things-type{
     color: white;
     font-size: 10px;
