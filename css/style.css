@@ -11,22 +11,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button{
-    padding: 5px 12px;
-    color: grey;
-    font-size: 12px;
-    vertical-align: middle;
-    background-color: transparent;
-    border-radius: 7px;
-    border-color: lightgrey;
-    border-width: 1px;
-}
 
 /* Utility */
-button:hover{
-    background-color: rgb(30,144,255);
+.btn{
+    padding: 5px 12px;
     color: white;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: rgb(30,144,255);
+    border-radius: 7px;
+    border: 1px solid transparent;
     cursor: pointer;
+}
+
+.btn.secondary-btn{
+    color: grey;
+    background-color: white;
+    border-color: currentColor;
 }
 
 .light-blue{
